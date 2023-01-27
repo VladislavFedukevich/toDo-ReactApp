@@ -1,13 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import React from 'react'
+import './App.css';
+import ToDoList from './components/ToDoList';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-
+    <div>
+      <h1>My ToDo App!</h1>
+      <ToDoList />
     </div>
   )
 }
 
-export default App
+export default App;
