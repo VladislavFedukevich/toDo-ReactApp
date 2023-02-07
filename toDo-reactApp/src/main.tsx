@@ -7,7 +7,10 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
+<<<<<<< HEAD
     <App />
+=======
+>>>>>>> bb3c0c040f34542a83e9cb9389adee0aa5338c1a
     <ChakraProvider>
       <ColorModeScript initialColorMode='light' />
       <App />
